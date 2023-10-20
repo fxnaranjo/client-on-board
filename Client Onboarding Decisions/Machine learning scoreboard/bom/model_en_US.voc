@@ -1,0 +1,46 @@
+
+# cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error#concept.label = Output error
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = a new {Output error} where {0, code} {1, message} 
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.code#phrase.action = set the code of {this} to {code}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.code#phrase.navigation = {code} of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.message#phrase.action = set the message of {this} to {message}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.message#phrase.navigation = {message} of {this}
+
+# cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input#concept.label = ML model input
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.Input(double,double,double,double)#phrase.navigation = a new {ML model input} where {0, clientannualrevenue} {1, clientexistenceduration} {2, clientemployeenumber} {3, clientindustry} 
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientannualrevenue#phrase.action = set the clientannualrevenue of {this} to {clientannualrevenue}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientannualrevenue#phrase.addition_setter = add {clientannualrevenue} to the clientannualrevenue of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientannualrevenue#phrase.navigation = {clientannualrevenue} of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientannualrevenue#phrase.subtraction_setter = subtract {clientannualrevenue} from the clientannualrevenue of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientemployeenumber#phrase.action = set the clientemployeenumber of {this} to {clientemployeenumber}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientemployeenumber#phrase.addition_setter = add {clientemployeenumber} to the clientemployeenumber of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientemployeenumber#phrase.navigation = {clientemployeenumber} of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientemployeenumber#phrase.subtraction_setter = subtract {clientemployeenumber} from the clientemployeenumber of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientexistenceduration#phrase.action = set the clientexistenceduration of {this} to {clientexistenceduration}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientexistenceduration#phrase.addition_setter = add {clientexistenceduration} to the clientexistenceduration of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientexistenceduration#phrase.navigation = {clientexistenceduration} of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientexistenceduration#phrase.subtraction_setter = subtract {clientexistenceduration} from the clientexistenceduration of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientindustry#phrase.action = set the clientindustry of {this} to {clientindustry}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientindustry#phrase.addition_setter = add {clientindustry} to the clientindustry of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientindustry#phrase.navigation = {clientindustry} of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientindustry#phrase.subtraction_setter = subtract {clientindustry} from the clientindustry of {this}
+
+# cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output#concept.label = ML model output
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.Output(java.lang.Integer,java.util.List)#phrase.navigation = a new {ML model output} where {0, predictions} {1, score} 
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.addTo_scores(java.lang.Double)#phrase.action = add {0} to the scores of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.clear_scores()#phrase.action = clear the scores of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.error#phrase.action = set the error of {this} to {error}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.error#phrase.clearer = clear the error of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.error#phrase.navigation = {error} of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.inError()#phrase.navigation = {this} is in error
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.predictions#phrase.action = set the predictions of {this} to {predictions}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.predictions#phrase.addition_setter = add {predictions} to the predictions of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.predictions#phrase.navigation = {predictions} of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.predictions#phrase.subtraction_setter = subtract {predictions} from the predictions of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.removeFrom_scores(java.lang.Double)#phrase.action = remove {0} from the scores of {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.run(cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input)#phrase.navigation = predict({0})
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.scores#phrase.action = set the scores of {this} to {score}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.scores#phrase.navigation = {score} of {this}

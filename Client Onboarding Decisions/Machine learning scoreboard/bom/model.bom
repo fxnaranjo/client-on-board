@@ -1,0 +1,101 @@
+
+package cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard;
+
+
+class Error
+        property ads.typeId "2"
+        #de.generated
+{
+    string code
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "code";
+    string message
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "message";
+    Error(string code, string message)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Error()
+                #dataio.default;
+}
+
+class Input
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonPropertyOrder "{clientAnnualRevenue,clientExistenceDuration,clientEmployeeNumber,clientIndustry}"
+        #de.generated
+{
+    double clientannualrevenue
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "clientAnnualRevenue";
+    double clientemployeenumber
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "clientEmployeeNumber";
+    double clientexistenceduration
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "clientExistenceDuration";
+    double clientindustry
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "clientIndustry";
+    Input(double clientannualrevenue, double clientexistenceduration, double clientemployeenumber, double clientindustry)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Input()
+                #dataio.default;
+}
+
+class Output
+        property ads.typeId "3"
+        property com.fasterxml.jackson.annotation.JsonIgnoreProperties {
+            ignoreUnknown "true"
+        }
+        #de.generated
+{
+    cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error error
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "error";
+    java.lang.Integer predictions
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "predictions";
+    java.util.List scores domain 0,* class java.lang.Double
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "scores";
+    Output(java.lang.Integer predictions, 
+        java.util.List scores domain 0,* class java.lang.Double)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Output()
+                #dataio.default;
+    void addTo_scores(java.lang.Double scores)
+                property collectionAttribute "scores"
+                #update;
+    void clear_scores()
+                property collectionAttribute "scores"
+                #update;
+    boolean inError()
+                property de.generated {
+                    $gen "com.ibm.decision.ml.integration.xom.InErrorTestGenerator",
+                    $target "BOM"
+                };
+    void removeFrom_scores(java.lang.Double scores)
+                property collectionAttribute "scores"
+                #update;
+    static Output run(cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input input)
+                #pureFunction;
+    static Output run(com.ibm.decision.run.RunContext runContext, cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input input)
+                property de.generated {
+                    $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
+                    $target "BOM",
+                    providerInfoId "cp4admin/Client-Onboarding/OPS16977608880066"
+                }
+                #pureFunction;
+    void set_scores(java.util.Collection scores domain 0,* class java.lang.Double)
+                property collectionAttribute "scores"
+                #update;
+}
+

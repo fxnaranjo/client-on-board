@@ -1,0 +1,46 @@
+
+# cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error#concept.label = Output error
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = et nytt {Output error} hvor {0, code} {1, message} 
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.code#phrase.action = sett coden på {this} til {code}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.code#phrase.navigation = {code} på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.message#phrase.action = sett messagen på {this} til {message}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Error.message#phrase.navigation = {message} på {this}
+
+# cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input#concept.label = ML model input
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.Input(double,double,double,double)#phrase.navigation = et nytt {ML model input} hvor {0, clientannualrevenue} {1, clientexistenceduration} {2, clientemployeenumber} {3, clientindustry} 
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientannualrevenue#phrase.action = sett clientannualrevenuen på {this} til {clientannualrevenue}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientannualrevenue#phrase.addition_setter = legg {clientannualrevenue} til clientannualrevenuen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientannualrevenue#phrase.navigation = {clientannualrevenue} på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientannualrevenue#phrase.subtraction_setter = trekk {clientannualrevenue} fra clientannualrevenuen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientemployeenumber#phrase.action = sett clientemployeenumberen på {this} til {clientemployeenumber}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientemployeenumber#phrase.addition_setter = legg {clientemployeenumber} til clientemployeenumberen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientemployeenumber#phrase.navigation = {clientemployeenumber} på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientemployeenumber#phrase.subtraction_setter = trekk {clientemployeenumber} fra clientemployeenumberen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientexistenceduration#phrase.action = sett clientexistencedurationen på {this} til {clientexistenceduration}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientexistenceduration#phrase.addition_setter = legg {clientexistenceduration} til clientexistencedurationen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientexistenceduration#phrase.navigation = {clientexistenceduration} på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientexistenceduration#phrase.subtraction_setter = trekk {clientexistenceduration} fra clientexistencedurationen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientindustry#phrase.action = sett clientindustryen på {this} til {clientindustry}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientindustry#phrase.addition_setter = legg {clientindustry} til clientindustryen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientindustry#phrase.navigation = {clientindustry} på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input.clientindustry#phrase.subtraction_setter = trekk {clientindustry} fra clientindustryen på {this}
+
+# cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output#concept.label = ML model output
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.Output(java.lang.Integer,java.util.List)#phrase.navigation = et nytt {ML model output} hvor {0, predictions} {1, scores} 
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.addTo_scores(java.lang.Double)#phrase.action = legg {0} til scoresene til {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.clear_scores()#phrase.action = fjern scoresene på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.error#phrase.action = sett erroren på {this} til {error}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.error#phrase.clearer = fjern erroren på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.error#phrase.navigation = {error} på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.inError()#phrase.navigation = {this} er in error
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.predictions#phrase.action = sett predictionsen på {this} til {predictions}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.predictions#phrase.addition_setter = legg {predictions} til predictionsen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.predictions#phrase.navigation = {predictions} på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.predictions#phrase.subtraction_setter = trekk {predictions} fra predictionsen på {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.removeFrom_scores(java.lang.Double)#phrase.action = fjern {0} fra scoresene til {this}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.run(cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Input)#phrase.navigation = predict({0})
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.scores#phrase.action = sett scoresene på {this} til {scores}
+cp4admin.client_onboarding.client_onboarding_decisions.machinelearningscoreboard.Output.scores#phrase.navigation = {scores} på {this}

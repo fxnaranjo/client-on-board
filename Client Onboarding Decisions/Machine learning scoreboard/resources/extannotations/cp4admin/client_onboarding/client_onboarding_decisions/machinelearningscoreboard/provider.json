@@ -1,0 +1,14 @@
+{
+  "name" : "cp4admin/Client-Onboarding/OPS1697760888006",
+  "type" : "OPS",
+  "description" : "",
+  "updateTime" : 1697760888028,
+  "authInfo" : {
+    "authType" : "NONE"
+  },
+  "providerAdditionalInfo" : {
+    "providerType" : "OPS",
+    "mlUrl" : "https://ads-ml-ads-ml-service.apps.daffy-p2tf44qk.cloud.techzone.ibm.com"
+  },
+  "version" : "V1"
+}

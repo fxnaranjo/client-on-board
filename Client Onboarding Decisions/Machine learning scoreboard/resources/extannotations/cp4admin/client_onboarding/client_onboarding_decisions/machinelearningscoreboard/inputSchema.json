@@ -1,0 +1,22 @@
+{
+  "id" : "input_id",
+  "name" : "input for service-payment-default-risk",
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "clientAnnualRevenue",
+    "type" : "float64",
+    "nullable" : false
+  }, {
+    "name" : "clientExistenceDuration",
+    "type" : "float64",
+    "nullable" : false
+  }, {
+    "name" : "clientEmployeeNumber",
+    "type" : "float64",
+    "nullable" : false
+  }, {
+    "name" : "clientIndustry",
+    "type" : "float64",
+    "nullable" : false
+  } ]
+}
